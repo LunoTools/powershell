@@ -143,7 +143,8 @@ There are few ways to get help:
 - **Object** `opt`: An object containing the following fields:
  - `debug` (Boolean): Turn on/off the debug messages (default: `false`).
  - `noprofile` (Boolean): Turn on/off noprofile parameter (default: `true`).
- - `executionpolicy` (Enum): Run powershell with specified executionpolicy (default: System default). Valid enum values are `Restricted`, `AllSigned`, `RemoteSigned`, `Unrestricted`, `Bypass`, `Undefined`.
+ - `executionpolicy` (Enum): Run powershell with specified executionpolicy (default: System default). 
+ - `cwd` (String): Run powershell in the specified working directory (default: Node cwd). 
  - `PSCore` (Boolean) : Turn on/off 'pwsh' the executable for PowerShell Core as opposed to Windowes PowerShell (default: 'false').
 - **Function** `cb`: The callback function (optional).
 
